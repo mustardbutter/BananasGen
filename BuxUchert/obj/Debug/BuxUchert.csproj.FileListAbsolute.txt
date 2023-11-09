@@ -1,0 +1,15 @@
+S:\ИСП 431д\Межин\BuxUchert\bin\Debug\BuxUchert.exe.config
+S:\ИСП 431д\Межин\BuxUchert\bin\Debug\BuxUchert.exe
+S:\ИСП 431д\Межин\BuxUchert\bin\Debug\BuxUchert.pdb
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\MainWindow.g.cs
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\App.g.cs
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert_MarkupCompile.cache
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert_MarkupCompile.lref
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\MainWindow.baml
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert.g.resources
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert.Properties.Resources.resources
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert.csproj.GenerateResource.cache
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert.csproj.CoreCompileInputs.cache
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert.exe
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert.pdb
+S:\ИСП 431д\Межин\BuxUchert\obj\Debug\BuxUchert.csproj.AssemblyReference.cache

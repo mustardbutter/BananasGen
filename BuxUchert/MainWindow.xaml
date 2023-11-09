@@ -1,0 +1,31 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuxUchert"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="BuxUchert.MainWindow"
+        mc:Ignorable="d"
+        Title="BananaCounter" Height="234" Width="649.4">
+    <Grid Margin="0,0,0,4">
+        <Grid.Background>
+            <ImageBrush ImageSource="nans.jpg" TileMode="FlipY" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="163*"/>
+            <ColumnDefinition Width="139*"/>
+            <ColumnDefinition Width="329*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="GetThings" Content="Удалить/Изменить" HorizontalAlignment="Center" Height="45" Margin="0,39,0,0" VerticalAlignment="Top" Width="122" Grid.Column="1" Click="GetThings_Click" />
+        <Button Content="Добавить" HorizontalAlignment="Center" Height="45" Margin="0,89,0,0" VerticalAlignment="Top" Width="122" Grid.Column="1" Click="Button_Click"/>
+        <TextBox x:Name="NameField" Grid.Column="2" HorizontalAlignment="Center" Height="23" Margin="0,39,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="294" Text="Наименование"/>
+        <TextBox x:Name="Poroda" Grid.Column="2" HorizontalAlignment="Center" Height="23" Margin="0,72,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="294" Text="Сорт"/>
+        <TextBox x:Name="Count" Grid.Column="2" HorizontalAlignment="Center" Height="23" Margin="0,108,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="294" Text="Колличество"/>
+        <ComboBox x:Name="SuperC" HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" VerticalAlignment="Top" Width="142" IsEditable="True" SelectedIndex="7" SelectionChanged="SuperC_SelectionChanged"/>
+        <Button Content="Экспорт в документ" HorizontalAlignment="Center" Height="45" Margin="7.4,139,8.2,0" VerticalAlignment="Top" Width="122" Grid.Column="1" Click="Button_Click_1"/>
+        <Label x:Name="ItemsCounter" Content="Сортов бананов: 0" Grid.Column="1" HorizontalAlignment="Left" Margin="11.6,7,0,0" VerticalAlignment="Top" Width="118"/>
+    </Grid>
+</Window>
